@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.navbar{
+    background-color: #0F172A;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+
+    .navbar-brand{
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+}
+
+.nav-link{
+    color: #CBD5E1;
+}
+
+.nav-link:hover{
+      color: #3B82F6 !important;
+}
+
+
+/* Hero section */
+.hero-sec{
+    padding: 120px 0px;
+    background-color: #0F172A;
+    color: white;
+}
+
+.hero-heading{
+    font-size: 22px;
+}
+
+.hero-main-heading{
+    font-size: 44px;
+}
+
+.hero-para{
+    color: #CBD5E1;
+    line-height: 1.8;
+}
+
+.hero-btn{
+    background-color: #3B82F6;
+}
