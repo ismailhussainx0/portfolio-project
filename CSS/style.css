@@ -56,7 +56,7 @@
 }
 
 
-.btn-primary{
+.btn-primary {
     padding: 10px 22px;
     border-radius: 8px;
 }
@@ -75,25 +75,25 @@
 
 
 /* about section */
-section{
+section {
     padding: 100px 0;
     background-color: #111827;
 }
 
-.section-heading{
+.section-heading {
     color: #fff;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
 }
 
-.section-sub-heading{
+.section-sub-heading {
     color: #94A3B8;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.about-text{
+.about-text {
     color: #CBD5E1;
     text-align: center;
     max-width: 750px;
@@ -101,64 +101,66 @@ section{
     line-height: 1.8;
 }
 
-.card{
+.card {
     background-color: #1E293B;
     border: 1px solid #334155;
     border-radius: 15px;
     transition: .3s;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-8px);
     border-color: #3B82F6;
+    box-shadow: 0 0 25px rgba(59, 130, 246, .25);
+
 }
 
-.card-body{
+.card-body {
     display: flex;
     flex-direction: column;
     padding: 30px;
 }
 
-.about-card-text{
+.about-card-text {
     color: #E2E8F0;
     font-size: 18px;
     margin-bottom: 18px;
 }
 
 
-/* skills section */
+
 /* Skills Section */
 
-.skill-card{
+.skill-card {
     background-color: #1E293B;
     border: 1px solid #334155;
     border-radius: 15px;
     transition: .3s;
 }
 
-.skill-card:hover{
+.skill-card:hover {
     transform: translateY(-8px);
     border-color: #3B82F6;
-    box-shadow: 0 0 25px rgba(59,130,246,.25);
+    box-shadow: 0 0 25px rgba(59, 130, 246, .25);
 }
 
-.skill-card .card-body{
+.skill-card .card-body {
     padding: 25px;
 }
 
-.skill-card h4{
+.skill-card h4 {
     color: #fff;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.skill-card i{
+.skill-card i {
     color: #3B82F6;
     margin-right: 10px;
     font-size: 28px;
 }
 
-.skill-card p{
+.skill-card p {
     color: #CBD5E1;
     margin-top: 15px;
     line-height: 1.6;
@@ -166,14 +168,266 @@ section{
 
 /* Progress Bar */
 
-.progress{
+.progress {
     height: 10px;
     background-color: #334155;
     border-radius: 50px;
 }
 
-.progress-bar{
+.progress-bar {
     background-color: #3B82F6;
     font-size: 12px;
     font-weight: 600;
+}
+
+/* services card */
+
+.service-card .card-body{
+    padding: 40px 30px;
+
+}
+
+.service-card i {
+    font-size: 60px;
+    color: #3B82F6;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    color: #CBD5E1;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.service-card h4{
+    color: white;
+}
+
+
+
+
+/* Portfolio Section */
+
+.portfolio-sec{
+    padding:100px 0;
+    background:#111827;
+}
+
+.portfolio-card{
+    background:#1E293B;
+    border:1px solid #334155;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.portfolio-card:hover{
+    transform:translateY(-10px);
+    border-color:#3B82F6;
+    box-shadow:0 0 30px rgba(59,130,246,.30);
+}
+
+.portfolio-card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.portfolio-card .card-body{
+    padding:25px;
+}
+
+.portfolio-card h4{
+    color:#fff;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.portfolio-card p{
+    color:#CBD5E1;
+    line-height:1.7;
+}
+
+.portfolio-card .badge{
+    margin-right:6px;
+    padding:8px 12px;
+}
+
+.portfolio-card .btn{
+    margin-right:8px;
+    margin-top:8px;
+}
+
+
+
+/* Resume Section */
+
+.resume-sec{
+    padding:100px 0;
+    background:#0F172A;
+}
+
+.resume-card{
+    background:#1E293B;
+    border:1px solid #334155;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.resume-card:hover{
+    transform:translateY(-10px);
+    border-color:#3B82F6;
+    box-shadow:0 0 30px rgba(59,130,246,.30);
+}
+
+.resume-card .card-body{
+    padding:35px;
+}
+
+.resume-title{
+    color:#fff;
+    font-size:28px;
+    margin-bottom:30px;
+}
+
+.resume-title i{
+    color:#3B82F6;
+    margin-right:10px;
+}
+
+.resume-item{
+    margin-bottom:30px;
+    padding-bottom:20px;
+    border-bottom:1px solid #334155;
+}
+
+.resume-item:last-child{
+    border:none;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.resume-item h5{
+    color:#fff;
+    font-weight:600;
+}
+
+.resume-item span{
+    color:#3B82F6;
+    display:block;
+    margin:8px 0;
+    font-size:15px;
+}
+
+.resume-item p{
+    color:#CBD5E1;
+    line-height:1.7;
+}
+
+
+
+/* testimonial-sec */
+.testimonial-sec{
+    padding:100px 0;
+    background:#111827;
+}
+
+.testimonial-card{
+    background:#1E293B;
+    border:1px solid #334155;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+    border-color:#3B82F6;
+    box-shadow:0 0 30px rgba(59,130,246,.30);
+}
+
+.testimonial-card .card-body{
+    padding:35px;
+}
+
+.quote-icon{
+    font-size:40px;
+    color:#3B82F6;
+    margin-bottom:20px;
+}
+
+.testimonial-card p{
+    color:#CBD5E1;
+    line-height:1.8;
+}
+
+.testimonial-card h5{
+    color:#fff;
+    margin-top:20px;
+}
+
+.testimonial-card small{
+    color:#94A3B8;
+}
+
+
+/* contact form */
+/* Contact */
+
+.contact-sec{
+    padding:100px 0;
+    background:#0F172A;
+}
+
+.contact-card{
+    background:#1E293B;
+    border:1px solid #334155;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-10px);
+    border-color:#3B82F6;
+    box-shadow:0 0 30px rgba(59,130,246,.30);
+}
+
+.contact-card .card-body{
+    padding:35px;
+}
+
+.contact-card h3{
+    color:white;
+    margin-bottom:20px;
+}
+
+.contact-card p{
+    color:#CBD5E1;
+    line-height:1.8;
+}
+
+.contact-item{
+    margin:20px 0;
+    color:white;
+}
+
+.contact-item i{
+    color:#3B82F6;
+    margin-right:15px;
+    font-size:20px;
+}
+
+.form-control{
+    background:#111827;
+    border:1px solid #334155;
+    color:white;
+}
+
+.form-control:focus{
+    background:#111827;
+    color:white;
+    border-color:#3B82F6;
+    box-shadow:none;
+}
+
+.form-control::placeholder{
+    color:#94A3B8;
 }
